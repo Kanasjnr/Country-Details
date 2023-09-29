@@ -25,11 +25,11 @@ result.innerHTML = `
 <h1>${name}</h1>
 </div>
 <div class="details">
-<h2><strong>Capital:</strong>${data[0].capital[0]}</h2>
-<h2><strong>Continent:</strong>${data[0].region}</h2>
-<h2><strong>Population:</strong>${data[0].population}</h2>
-<h2><strong>Currencies:</strong>${currency[0]}</h2>
-<h2><strong>Language:</strong>${language[0]}</h2>
+<h2><strong>Capital:</strong><span>${data[0].capital[0]}</span></h2>
+<h2><strong>Continent:</strong><span>${data[0].region}</span></h2>
+<h2><strong>Population:</strong><span>${data[0].population}</span></h2>
+<h2><strong>Currencies:</strong><span>${currency[0]}</span></h2>
+<h2><strong>Language:</strong><span>${language[0]}<span></h2>
 
 </div>`
 

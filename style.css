@@ -95,3 +95,17 @@ width: 90vmin;
     font-family: "roboto";
 }
 
+/* Media Query */
+@media (max-width: 450px) {
+    .container{
+        background-color: white;
+        width: 90vmin;
+          position: absolute;
+          transform: translate(-50%, -50%);
+          top: 50%;
+          left: 50%;
+          padding: 40px 40px;
+          border-radius: 20px;
+          box-shadow: 0 40px 40px rgba(38, 33, 61, 0.2);   
+        }
+}
